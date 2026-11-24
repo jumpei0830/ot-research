@@ -1,0 +1,25 @@
+/* Shared OT palette. Presentation only: no changes to scoring or application state. */
+:root{color-scheme:light;--ot-green:#245a38;--ot-soft:#e1f2e6;--ot-wash:#f3f8f4;--ot-line:#98ad9e;--ot-ink:#000;--blue:#245a38;--green:#245a38;--accent:#245a38;--primary:#245a38;--pale:#e1f2e6;--light:#e1f2e6;--mint:#e1f2e6;--line:#98ad9e;--border:#98ad9e;--bg:#f3f8f4;--paper:#fff;--ink:#000;--muted:#000;--focus:#245a38}
+html,body{background-color:#fff!important;color:#000!important}
+body,p,li,dd,dt,label,legend,summary,small,em,strong,b,th,td,h1,h2,h3,h4,h5,h6,a,button,input,textarea,select{color:#000!important;-webkit-text-fill-color:#000!important}
+header{background-color:#e1f2e6!important;color:#000!important;border-color:#98ad9e!important}
+header *, .muted,.meta,.caption,.small,.subtitle,.eyebrow,.source,.footer,.en,.guide,.lead,.heading-english,.legend,.count,.group,.item-desc,.item-name,.section-label,.status,.num{color:#000!important;-webkit-text-fill-color:#000!important}
+h2{border-color:#98ad9e!important}h2[style*="background"],.section-title,.section-heading{background-color:#f3f8f4!important}
+.card,.panel,.resource,.research-card,.term-card,details,.item,.entry,section{border-color:#98ad9e!important}
+button,input,select,textarea,label.option,label.choice{border-color:#98ad9e!important;accent-color:#245a38}
+:where(button:not(.stop):not(.danger):not(.warning):not(.tile)){background-color:#fff!important}
+:where(button:hover:not(:disabled):not(.stop):not(.danger):not(.tile)),label.option:hover,label.choice:hover,nav a:hover{background-color:#f3f8f4!important}
+button.primary,.primary,button.selected,button.active,nav .active,nav [aria-current=page],button[aria-pressed=true]:not(.tile),button[aria-selected=true],.steps .active,.category[aria-pressed=true]{background-color:#e1f2e6!important;border-color:#245a38!important;color:#000!important;-webkit-text-fill-color:#000!important}
+.primary *,button.active *,button.selected *,button[aria-pressed=true] *,nav [aria-current=page] *, .steps .active *{color:#000!important;-webkit-text-fill-color:#000!important}
+button:disabled{background-color:#f3f8f4!important}
+button.stop,button.danger{background-color:#fde9e7!important;border-color:#a52323!important;color:#000!important}
+label.choice:has(input:checked),label.option:has(input:checked),.option:has(input:checked){background-color:#e1f2e6!important;border-color:#245a38!important}
+th{background-color:#e1f2e6!important;border-color:#98ad9e!important}td{border-color:#cadacf!important}
+blockquote,.note:not(.caution):not(.warning):not(.alert),.reading-guide,.range,.related a,.selected,.quick,.tag:not(.abstract):not(.indirect),.tags span,.card-tags span{background-color:#f3f8f4!important;border-color:#98ad9e!important;color:#000!important}
+.eyebrow,.pdf-link,.back,.back-top{color:#245a38!important;-webkit-text-fill-color:#245a38!important}
+.entry,.research,.guidance{border-color:#98ad9e!important}.symbol,.research .symbol,.guidance .symbol,.mark,.topmark{background-color:#e1f2e6!important;color:#245a38!important}
+progress{accent-color:#245a38}progress::-webkit-progress-value{background:#245a38}progress::-moz-progress-bar{background:#245a38}
+:focus-visible{outline-color:#245a38!important}
+/* Preserve yellow/red safety notices and distinct activity-answer colors. */
+.warning,.caution,.alert,[role=alert]{color:#000!important}
+@media print{html,body,header{background-color:#fff!important}button{display:none!important}}

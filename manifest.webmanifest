@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "OT調査",
+  "short_name": "OT調査",
+  "lang": "ja",
+  "start_url": "./research/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e1f2e6",
+  "icons": [
+    {
+      "src": "icon-192-324a637651.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512-324a637651.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-324a637651.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
